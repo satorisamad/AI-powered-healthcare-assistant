@@ -1,0 +1,39 @@
+# Core AI and LLM
+openai>=1.90.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-google-community>=2.0.0
+langsmith>=0.4.0
+
+# Web Framework and API
+fastapi>=0.115.0
+uvicorn>=0.35.0
+python-multipart>=0.0.20
+
+# Voice Processing and Audio
+deepgram-sdk>=4.5.0
+twilio>=9.6.0
+websockets>=15.0.0
+
+# Google Services Integration
+google-api-python-client>=2.170.0
+google-auth>=2.40.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# Data Processing and Validation
+pydantic>=2.11.0
+pandas>=2.3.0
+numpy>=2.3.0
+python-dateutil>=2.9.0
+
+# HTTP and Networking
+aiohttp>=3.12.0
+requests>=2.32.0
+
+# Web Interface and Visualization
+streamlit>=1.46.0
+
+# Utilities and Configuration
+python-dotenv>=1.1.0

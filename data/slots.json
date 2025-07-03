@@ -1,0 +1,6 @@
+{
+  "available_slots": [
+    {"date": "2025-07-07", "time": "10:00", "doctor": "Dr. Smith"},
+    {"date": "2025-07-07", "time": "11:00", "doctor": "Dr. Lee"}
+  ]
+}

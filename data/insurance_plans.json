@@ -1,0 +1,244 @@
+{
+  "accepted_plans": [
+    {
+      "name": "Aetna",
+      "type": "PPO, HMO, EPO, POS",
+      "category": "Commercial, Medicare Advantage, Medicaid Managed Care",
+      "notes": "Referral may be required for HMO plans. Verify specific plan benefits."
+    },
+    {
+      "name": "Blue Cross Blue Shield",
+      "type": "PPO, HMO, EPO, POS",
+      "category": "Commercial, Medicare Advantage, Medicaid Managed Care",
+      "notes": "Accepts most state-specific BCBS plans. Out-of-state plans require verification."
+    },
+    {
+      "name": "Cigna",
+      "type": "PPO, HMO, OAP",
+      "category": "Commercial, Medicare Advantage",
+      "notes": "Check network status for specific Cigna plans."
+    },
+    {
+      "name": "UnitedHealthcare",
+      "type": "PPO, HMO, EPO, POS",
+      "category": "Commercial, Medicare Advantage, Medicaid Managed Care",
+      "notes": "Includes UHC Community Plan and Optum sub-plans. Verify eligibility."
+    },
+    {
+      "name": "Medicare",
+      "type": "Part A, Part B, Medicare Advantage (various plans)",
+      "category": "Government",
+      "notes": "Accepts traditional Medicare. For Medicare Advantage, verify specific plan."
+    },
+    {
+      "name": "Medicaid",
+      "type": "Managed Care Organizations (MCOs)",
+      "category": "Government",
+      "notes": "Accepts state-specific Medicaid MCOs (e.g., Molina, Ambetter, WellCare). Patient must be active."
+    },
+    {
+      "name": "Humana",
+      "type": "PPO, HMO, POS",
+      "category": "Commercial, Medicare Advantage",
+      "notes": "Verify specific Humana plan details, especially for Medicare Advantage."
+    },
+    {
+      "name": "Kaiser Permanente",
+      "type": "HMO",
+      "category": "Commercial",
+      "notes": "Generally in-network only for Kaiser facilities. Requires specific referral process for outside care."
+    },
+    {
+      "name": "TRICARE",
+      "type": "Prime, Select, For Life",
+      "category": "Military",
+      "notes": "Accepts most TRICARE plans. Ensure authorization is in place for specialized services."
+    },
+    {
+      "name": "Veterans Affairs (VA) Community Care",
+      "type": "Community Care Network (CCN)",
+      "category": "Military",
+      "notes": "Requires prior authorization from VA for all services."
+    },
+    {
+      "name": "Molina Healthcare",
+      "type": "HMO",
+      "category": "Medicaid Managed Care, Marketplace",
+      "notes": "Commonly a Medicaid managed care plan. Verify state and plan specifics."
+    },
+    {
+      "name": "Ambetter",
+      "type": "EPO, HMO",
+      "category": "Marketplace",
+      "notes": "Health insurance marketplace plan. Verify network and referral requirements."
+    },
+    {
+      "name": "Oscar Health",
+      "type": "EPO, HMO",
+      "category": "Marketplace",
+      "notes": "Tech-driven health insurance. Check specific plan for network coverage."
+    },
+    {
+      "name": "Bright HealthCare",
+      "type": "EPO, HMO",
+      "category": "Marketplace",
+      "notes": "Focus on integrated care. Verify network participation."
+    },
+    {
+      "name": "Centene Corporation",
+      "type": "Various (through subsidiaries like Ambetter, WellCare)",
+      "category": "Medicaid Managed Care, Marketplace",
+      "notes": "Parent company for multiple managed care plans. Verification needed by subsidiary name."
+    },
+    {
+      "name": "Anthem",
+      "type": "PPO, HMO, EPO, POS",
+      "category": "Commercial, Medicare Advantage, Medicaid Managed Care",
+      "notes": "Often a licensee of Blue Cross Blue Shield. Verify specific state plan."
+    },
+    {
+      "name": "WellCare",
+      "type": "HMO, PPO",
+      "category": "Medicare Advantage, Medicaid Managed Care",
+      "notes": "Specializes in government-sponsored programs. Verify plan type."
+    },
+    {
+      "name": "Fidelis Care",
+      "type": "HMO",
+      "category": "Medicaid Managed Care, Child Health Plus, Essential Plan",
+      "notes": "Primarily New York-based. Verify specific program."
+    },
+    {
+      "name": "Health Net",
+      "type": "HMO, PPO",
+      "category": "Commercial, Medicare Advantage, Medicaid Managed Care",
+      "notes": "Strong presence in California and other Western states. Check network."
+    },
+    {
+      "name": "Magellan Health",
+      "type": "Behavioral Health Network",
+      "category": "Behavioral Health",
+      "notes": "Primarily covers mental health and substance use services. Often a carve-out."
+    },
+    {
+      "name": "MultiPlan",
+      "type": "PPO Network",
+      "category": "Commercial (Network Access)",
+      "notes": "Not an insurance company, but a network used by many smaller insurers. Verify primary insurer."
+    },
+    {
+      "name": "PHCS (Private Healthcare Systems)",
+      "type": "PPO Network",
+      "category": "Commercial (Network Access)",
+      "notes": "Similar to MultiPlan, provides network access for various payers."
+    },
+    {
+      "name": "First Health",
+      "type": "PPO Network",
+      "category": "Commercial (Network Access)",
+      "notes": "A network solution for self-funded employers and other payers."
+    },
+    {
+      "name": "Optum",
+      "type": "Behavioral Health, Physical Health (under UHC)",
+      "category": "Behavioral Health, Commercial",
+      "notes": "Often the behavioral health arm of UnitedHealthcare. Verify specific coverage."
+    },
+    {
+      "name": "Managed Health Network (MHN)",
+      "type": "Behavioral Health Network",
+      "category": "Behavioral Health",
+      "notes": "A subsidiary of Health Net, focusing on behavioral health."
+    },
+    {
+      "name": "Beacon Health Options",
+      "type": "Behavioral Health Network",
+      "category": "Behavioral Health",
+      "notes": "Large behavioral health managed care company. Verify specific plan."
+    },
+    {
+      "name": "ValueOptions",
+      "type": "Behavioral Health Network",
+      "category": "Behavioral Health",
+      "notes": "Now part of Beacon Health Options. Covers mental health and substance use."
+    },
+    {
+      "name": "ComPsych",
+      "type": "EAP, Behavioral Health",
+      "category": "Employee Assistance Program",
+      "notes": "Often provides EAP services and behavioral health benefits through employers."
+    },
+    {
+      "name": "EAP (Employee Assistance Programs)",
+      "type": "Various",
+      "category": "Employee Benefit",
+      "notes": "Coverage for short-term counseling or referrals. Verify specific EAP provider."
+    },
+    {
+      "name": "Workers' Compensation",
+      "type": "Various State-Specific Carriers",
+      "category": "Occupational Injury",
+      "notes": "Requires claim number and authorization for work-related injuries."
+    },
+    {
+      "name": "No-Fault (Auto Accident) Insurance",
+      "type": "Various Auto Insurance Carriers",
+      "category": "Auto Accident Injury",
+      "notes": "Requires claim number and authorization for injuries sustained in auto accidents."
+    },
+    {
+      "name": "GEHA (Government Employees Health Association)",
+      "type": "PPO, HDHP",
+      "category": "Federal Employee Program",
+      "notes": "Health plans for federal employees and retirees."
+    },
+    {
+      "name": "Tivity Health (SilverSneakers, Prime)",
+      "type": "Fitness Programs",
+      "category": "Wellness (Medicare Advantage add-on)",
+      "notes": "Often included with Medicare Advantage plans for fitness benefits."
+    },
+    {
+      "name": "Devoted Health",
+      "type": "HMO, PPO",
+      "category": "Medicare Advantage",
+      "notes": "Newer Medicare Advantage provider with integrated care."
+    },
+    {
+      "name": "Alignment Health Plan",
+      "type": "HMO, PPO",
+      "category": "Medicare Advantage",
+      "notes": "Focuses on seniors and Medicare beneficiaries."
+    },
+    {
+      "name": "Wellmark Blue Cross Blue Shield",
+      "type": "PPO, HMO",
+      "category": "Commercial (Regional)",
+      "notes": "Specific to Iowa and South Dakota. Verify regional plan."
+    },
+    {
+      "name": "Capital BlueCross",
+      "type": "PPO, HMO",
+      "category": "Commercial (Regional)",
+      "notes": "Specific to Central Pennsylvania and Lehigh Valley. Verify regional plan."
+    },
+    {
+      "name": "Highmark Blue Cross Blue Shield",
+      "type": "PPO, HMO",
+      "category": "Commercial (Regional)",
+      "notes": "Serves Pennsylvania, West Virginia, and Delaware. Verify regional plan."
+    },
+    {
+      "name": "Premera Blue Cross",
+      "type": "PPO, HMO",
+      "category": "Commercial (Regional)",
+      "notes": "Serves Washington and Alaska. Verify regional plan."
+    },
+    {
+      "name": "Regence BlueShield",
+      "type": "PPO, HMO",
+      "category": "Commercial (Regional)",
+      "notes": "Serves Washington, Oregon, Idaho, and Utah. Verify regional plan."
+    }
+  ]
+}
