@@ -85,3 +85,5 @@ SYSTEM_DESIGN.md
 # Virtual environments
 .venv/
 venv/
+credentials.json
+token.json
