@@ -67,8 +67,6 @@ coverage.xml
 *.flac
 
 # Credentials and tokens
-credentials.json
-token.json
 
 # Response cache
 response_cache.json
